@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h2>Latest Posts</h2>
+    <h2>MicroPosts</h2>
     <!-- Create New Post -->
     <div class="create-post">
       <label for="create-post"></label>
