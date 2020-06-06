@@ -30,6 +30,7 @@ class PostService {
         .get(`${url}`)
         .then((res) => {
           const data = res.data;
+          console.log(data);
           resolve(
             data.map((post) => ({
               ...post,
